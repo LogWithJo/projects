@@ -47,7 +47,7 @@ const PROJECTS: Project[] = [
 ];
 
 function ProjectCard({ title, description, slug }: Project) {
-	const url = `https://logwithjo.github.io/${slug}`;
+	const url = `https://logwithjo.github.io/${slug}/`;
 
 	return (
 		<Card className="group/card overflow-hidden transition-shadow hover:shadow-lg">
@@ -59,7 +59,7 @@ function ProjectCard({ title, description, slug }: Project) {
 						title={`${title} preview`}
 						loading="lazy"
 						referrerPolicy="no-referrer"
-						className="h-full w-full border-0"
+						className="h-full w-full border-0 overflow-y-hiddenn"
 						// sandbox keeps the preview safer; adjust if your sites require more permissions
 						sandbox="allow-scripts allow-forms allow-same-origin allow-popups"
 					/>
