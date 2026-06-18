@@ -15,5 +15,6 @@ export default defineConfig({
     host: true,
     port: 2011, 
     strictPort: true
-  }
+  },
+  base: "/projects/"
 })
