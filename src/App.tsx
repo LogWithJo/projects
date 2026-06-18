@@ -39,6 +39,11 @@ const PROJECTS: Project[] = [
 		description: "Simple login page UI",
 		slug: "LoginPage",
 	},
+	{
+		title: "React-Bytegrade",
+		description: "A simple learning projects",
+		slug: "React-Bytegrade",
+	},
 ];
 
 function ProjectCard({ title, description, slug }: Project) {
