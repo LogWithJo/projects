@@ -40,9 +40,9 @@ const PROJECTS: Project[] = [
 		slug: "LoginPage",
 	},
 	{
-		title: "React-Bytegrade",
+		title: "React-Bytegrad",
 		description: "A simple learning projects",
-		slug: "React-Bytegrade",
+		slug: "React-Bytegrad",
 	},
 	{
 		title: "Quiz",
