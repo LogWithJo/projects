@@ -15,6 +15,16 @@ type Project = {
 
 const PROJECTS: Project[] = [
 	{
+		title: "React-Bytegrad",
+		description: "A simple learning projects",
+		slug: "React-Bytegrad",
+	},
+	{
+		title: "Quiz",
+		description: "A Simple learning quiz app",
+		slug: "Quiz",
+	},
+	{
 		title: "Todo",
 		description: "A minimal todo app",
 		slug: "Todo",
@@ -38,16 +48,6 @@ const PROJECTS: Project[] = [
 		title: "LoginPage",
 		description: "Simple login page UI",
 		slug: "LoginPage",
-	},
-	{
-		title: "React-Bytegrad",
-		description: "A simple learning projects",
-		slug: "React-Bytegrad",
-	},
-	{
-		title: "Quiz",
-		description: "A Simple learning quiz app",
-		slug: "Quiz",
 	},
 ];
 
