@@ -20,6 +20,11 @@ const PROJECTS: Project[] = [
 		slug: "React-Bytegrad",
 	},
 	{
+		title: "Weather-App",
+		description: "A simple Weather app",
+		slug: "Weather-App",
+	},
+	{
 		title: "Quiz",
 		description: "A Simple learning quiz app",
 		slug: "Quiz",
