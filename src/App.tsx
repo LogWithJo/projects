@@ -54,6 +54,11 @@ const PROJECTS: Project[] = [
 		description: "Simple login page UI",
 		slug: "LoginPage",
 	},
+	{
+		title: "Notes-App",
+		description: "Simple Notes taking App",
+		slug: "Notes-App",
+	},
 ];
 
 function ProjectCard({ title, description, slug }: Project) {
